@@ -8,6 +8,7 @@ Common css start
 .container {
   width: 1270px;
   margin: 0 auto;
+  
 }
 .box {
   display: flex;
@@ -82,6 +83,7 @@ Banner css start
 background: #FAE3B6;
 padding-top: 124px;
 padding-bottom: 100px;
+
 }
 
 .banner .left{
@@ -123,6 +125,7 @@ padding-bottom: 100px;
   display: inline-block;
   border: 1px solid transparent;
   transition: .4s;
+  
 }
 .banner .left a:hover{
   background: transparent;
@@ -133,4 +136,68 @@ padding-bottom: 100px;
 
 /* ==============
 Banner css end
+============== */
+/* ==============
+collection css start
+============== */
+.collection {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.collection h2{
+  font-size: 64px;
+  font-weight: 700;
+  color: black;
+   font-family: "Frank Ruhl Libre", serif;
+   text-align: center;
+}
+.collection .box{
+  justify-content: space-between;
+  
+}
+
+.collection .card{
+  width: 349px;
+  height: 402px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 60px;
+
+  
+}
+.collection .card .overly{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+.collection .card .overly a{
+  background:white;
+  padding: 10px 100px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+   font-family: "Frank Ruhl Libre", serif;
+  
+   
+}
+
+.collection .card:hover .overly{
+  top: 0%;
+
+}
+
+
+
+/* ==============
+collection css end
 ============== */
