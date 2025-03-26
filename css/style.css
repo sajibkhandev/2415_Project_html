@@ -201,3 +201,81 @@ collection css start
 /* ==============
 collection css end
 ============== */
+/* ==============
+Fashion css start
+============== */
+.fashion{
+ 
+}
+
+ .fashion .left{
+  width: 50%;
+
+ }
+ .fashion .left img{
+  width: 100%;
+ }
+ .fashion .right{
+  width: 50%;
+  margin-left: 20px;
+ 
+ }
+ .fashion .box{
+  align-items: center;
+  position: relative;
+ }
+ .fashion .right h2{
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Frank Ruhl Libre", serif;
+  color: #000;
+  width: 437px;
+  
+ }
+ .fashion .right p{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  width: 443px;
+  padding-top: 63px;
+ }
+
+ .info-box{
+  width: 793px; 
+  padding: 66px 0px;
+  background: #FEECC8;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: -190px;
+  right: 0;
+  z-index: -1;
+  
+ }
+ .info-box h4{
+  font-size: 54px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+ }
+ .info-box p{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+ }
+
+ .info-box .mini-box{
+  border-right: 1px solid black;
+  padding-right: 27px;
+ }
+ .info-box .mini-box:last-child{
+  border-right: 0px;
+
+ }
+
+/* ==============
+Fashion css end
+============== */
